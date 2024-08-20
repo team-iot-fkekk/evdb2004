@@ -25,7 +25,7 @@ This repository contains the source code for an Electric Vehicle (EV) dashboard 
 
 1. Clone this repository
 2. Open the project in Arduino IDE or PlatformIO
-3. Create a new header file "arduino_secrets.h"
+3. Create a new header file "arduino_secrets.h". Insert the following code with the credentials.
    
 ```cpp
 #define SECRET_SSID ""

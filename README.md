@@ -25,14 +25,14 @@ This repository contains the source code for an Electric Vehicle (EV) dashboard 
 
 1. Clone this repository
 2. Open the project in Arduino IDE or PlatformIO
-3. Create a new header file "arduino_secrets.h". Insert the following code with the credentials.
+3. Create a new header file "arduino_secrets.h". Configure your WiFi credentials and Favoriot API key
    
 ```cpp
 #define SECRET_SSID ""
 #define SECRET_PASS ""
 #define SECRET_APIKEY ""
 ```
-4. Configure your WiFi credentials and Favoriot API key
-5. Upload the code to your Arduino Uno R4 WiFi board
-6. View your data on the Favoriot dashboard
+
+4. Upload the code to your Arduino Uno R4 WiFi board
+5. View your data on the Favoriot dashboard
 
